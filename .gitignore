@@ -1,2 +1,6 @@
-#virtual_env
+# virtual_env
 linkpy_env/*
+
+# secret folder with password or keys or vaults or whatever you want not to share
+secret/*
+

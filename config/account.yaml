@@ -1,0 +1,7 @@
+# YAML file to store connection data
+#
+---
+account_name:
+    user: username_or_email
+    passwd: password
+---
