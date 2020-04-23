@@ -29,6 +29,10 @@ def getConsumptionPerHour():
     linky = Linky(request.args.get('login'),request.args.get('password'))
     return jsonify(linky.getConsumptionPerHour(request.args.get('start'), request.args.get('end')))
 
+@app.route('/helloworld')
+def index():
+    return 'Hello world!'
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000, host='0.0.0.0')
 
